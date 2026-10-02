@@ -7,18 +7,18 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-#model setup 
+#model_ setup 
 llm = ChatOpenAI(model = "gpt-4o-mini",temperature=0)
 
 
-#1st agent 
+#1st_agent 
 def build_search_agent():
     return create_agent(
         model = llm,
         tools= [web_search]
     )
 
-#2nd agent 
+#2nd_agent 
 
 def build_reader_agent():
     return create_agent(
@@ -27,7 +27,7 @@ def build_reader_agent():
     )
 
 
-#writer chain 
+#writer_chain 
 
 writer_prompt = ChatPromptTemplate.from_messages([
     ("system", "You are an expert research writer. Write clear, structured and insightful reports."),
