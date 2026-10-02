@@ -7,6 +7,9 @@ langchain-openai>=0.1.0
 # OpenAI
 openai>=1.30.0
 
+# Streamlit UI
+streamlit>=1.0.0
+
 # Tavily Search Tool
 tavily-python>=0.3.0
 
