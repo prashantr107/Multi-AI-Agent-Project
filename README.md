@@ -73,6 +73,9 @@ Open the local URL printed in the terminal, enter a research topic, and select *
 
 Do not add `.env` or real keys to the GitHub repository. Anyone who can use a public deployment may trigger API requests using your configured keys, so monitor usage and provider billing.
 
+## Web Application Link
+[https://mark-24.streamlit.app/](https://mark-24.streamlit.app/)
+
 ## Troubleshooting
 
 - **Missing OpenAI credentials:** Add `OPENAI_API_KEY` to Streamlit Cloud Secrets, save, and reboot the app. Make sure it is a root-level TOML entry.
