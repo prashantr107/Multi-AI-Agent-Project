@@ -35,5 +35,3 @@ def scrape_url(url: str) -> str:
         return soup.get_text(separator=" ", strip=True)[:3000]
     except Exception as e:
         return f"Error fetching the URL: {str(e)}"
-
-print(scrape_url.invoke("https://news.google.com/home?hl=en-IN&gl=IN&ceid=IN:en"))
