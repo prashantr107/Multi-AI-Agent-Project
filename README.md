@@ -81,7 +81,7 @@ Do not add `.env` or real keys to the GitHub repository. Anyone who can use a pu
 - **Missing OpenAI credentials:** Add `OPENAI_API_KEY` to Streamlit Cloud Secrets, save, and reboot the app. Make sure it is a root-level TOML entry.
 - **OpenAI `429` or insufficient quota:** Check the billing and usage for the OpenAI organization/project associated with the key.
 - **`ModuleNotFoundError` or unresolved import:** Install dependencies with `python -m pip install -r requirements.txt` in the same virtual environment selected by VS Code.
-- **Tavily authentication error:** Confirm `TAVILY_API_KEY` is set in the local `.env` or Streamlit Cloud Secrets.
+- **Tavily authentication error:** Confirm `TAVILY_API_KEY` is set in the local `.env` or Streamlit Cloud Secrets..
 
 ## Security
 
